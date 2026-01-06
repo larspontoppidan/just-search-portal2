@@ -249,7 +249,6 @@
   cursor: pointer;
   text-decoration: none;
   transition: color 0.15s ease;
-  margin-right: 1.2rem;
 }
 
 .footer-link:hover {
@@ -399,4 +398,39 @@
 
 .delete-button:hover {
   opacity: 1;
+}
+
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 600px) {
+  /* Reduce app padding and remove vertical centering */
+  .app {
+    padding: 24px 16px 100px;
+    zoom: 0.8;
+  }
+
+  /* Reduce section padding */
+  .search-section {
+    padding: 0;
+  }
+
+  .links-section {
+    padding: 0;
+  }
+
+  .button-container {
+    gap: 0.2rem;
+  }
+
+  /* Footer mobile layout */
+  .footer {
+    padding: 0.5rem 1rem;
+    background: var(--surface);
+  }
+
+  .footer-text {
+    display: none;
+  }  
+
 }

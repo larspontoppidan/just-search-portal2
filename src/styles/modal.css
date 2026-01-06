@@ -148,3 +148,10 @@
     opacity: 1;
   }
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 600px) {
+  .modal-content {
+    max-height: 95%;
+  }
+}

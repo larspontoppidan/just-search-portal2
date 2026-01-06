@@ -74,7 +74,7 @@ export const URL_ACTION_TEMPLATES: UrlAction[] = [
     'YouTube',
     'https://www.youtube.com', // 11
     'https://www.youtube.com/results?search_query={query}',
-    'https://www.youtube.com/favicon.ico'
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/330px-YouTube_full-color_icon_%282017%29.svg.png'
   ),
   new UrlAction(
     'Medium',
