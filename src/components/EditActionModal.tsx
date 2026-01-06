@@ -6,7 +6,8 @@ import './EditActionModal.css';
 
 // Add cache-busting parameter to bypass service worker cache
 function withNocache(url: string): string {
-  if (!url || url.length <= 2) return url; // Skip emoji/text icons
+  // Skip _nocache if url contains text or data URIs
+  if (!url || url.length <= 2 || url.startsWith('data')) return url;
   try {
     const urlObj = new URL(url);
     urlObj.searchParams.set('_nocache', Date.now().toString());
