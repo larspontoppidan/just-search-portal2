@@ -480,16 +480,8 @@ function App() {
             type="button"
             onClick={() => setIsAboutOpen(true)}
           >
-            ReadMe
+            README
           </button>
-          <a
-            className="footer-link"
-            href={__APP_GITHUB_URL__}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
         </div>
         <div className="footer-actions">
           <label

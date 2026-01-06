@@ -1,8 +1,6 @@
 # Description
 
-[Just Search Portal](https://justsearchportal.com) is an open-source New Tab page providing easy access to search engines and websites. 
-
-It was built to respect the user:
+[Just Search Portal](https://justsearchportal.com) is an [open-source](https://github.com/larspontoppidan/just-search-portal2.git) New Tab page providing easy access to search engines and websites. It was built to respect the user:
 
 **No distractions**. The search bar does not show search suggestions while the query is being typed. This is intentional. When suggestions are shown, they steer the user toward the preferences of an algorithm, obscuring the original search intent. Just Search Portal will not distract the user and will never show ads or add unwanted links.
 

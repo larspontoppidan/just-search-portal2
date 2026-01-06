@@ -17,7 +17,7 @@
   --surface-2: rgba(255, 255, 255, 0.85);
   --text: #3e4b61;
   --muted: #4b505b;
-  --border: rgba(44, 52, 66, 0.18);
+  --border: rgba(44, 52, 66, 0.4);
 
   --accent: #3b82f6; /* focus + highlights */
   --primary: #16a34a; /* primary actions ("OK"/"Done") */
@@ -41,7 +41,7 @@
   --surface-2: rgba(48, 54, 61, 0.92);
   --text: #cbd4db;
   --muted: #9aa4b2;
-  --border: rgba(230, 237, 243, 0.18);
+  --border: rgba(230, 237, 243, 0.3);
 
   --accent: #58a6ff;
   --primary: #2ea043;
@@ -65,7 +65,7 @@
   --surface-2: rgba(85, 100, 130, 0.88);
   --text: #f0f4f8;
   --muted: #a8b8d0;
-  --border: rgba(240, 244, 248, 0.22);
+  --border: rgba(240, 244, 248, 0.3);
 
   --accent: #8b9aff;
   --primary: #2ea043;
