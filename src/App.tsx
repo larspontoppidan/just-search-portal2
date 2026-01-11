@@ -70,6 +70,23 @@ function App() {
     saveUrlActions(urlActions);
   }, [urlActions]);
 
+  // Listen for hash changes to update search text (e.g., when navigating to #query=...)
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const params = new URLSearchParams(hash.substring(1));
+        const query = params.get('query');
+        if (query) {
+          setSearchText(decodeURIComponent(query));
+        }
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
   // Save theme preference to localStorage
   useEffect(() => {
     saveTheme(theme);
