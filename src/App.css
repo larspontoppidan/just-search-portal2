@@ -165,7 +165,7 @@
 
 .square-button:hover,
 .add-button:hover {
-  background: var(--surface-2);
+  background: var(--surface3);
   box-shadow: 0 14px 30px var(--shadow);
 }
 
@@ -313,7 +313,7 @@
 }
 
 .footer-toggle:hover .footer-toggle-track {
-  background: var(--surface-2);
+  background: var(--surface3);
 }
 
 .footer-toggle:hover .footer-toggle-track::after {
@@ -342,7 +342,7 @@
 }
 
 .theme-toggle:hover {
-  background: var(--surface-2);
+  background: var(--surface3);
 }
 
 .theme-toggle {

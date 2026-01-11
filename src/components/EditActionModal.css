@@ -24,7 +24,7 @@
   font-family: inherit;
   border: 2px solid var(--border);
   border-radius: 6px;
-  background-color: var(--surface-2);
+  background-color: var(--surface3);
   color: var(--text);
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
@@ -64,7 +64,7 @@ select.form-input {
 
 .form-input-with-button {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   align-items: stretch;
 }
 
@@ -82,7 +82,7 @@ select.form-input {
   justify-content: center;
   border: 1px solid var(--border);
   border-radius: 4px;
-  background-color: var(--surface-2);
+  background-color: var(--surface3);
 }
 
 .icon-preview img {
