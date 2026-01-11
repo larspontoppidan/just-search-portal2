@@ -125,6 +125,18 @@ export const URL_ACTION_TEMPLATES: UrlAction[] = [
     '',
     'https://chatgpt.com/favicon.ico'
   ),
+  new UrlAction(
+    'Qwant',
+    'https://www.qwant.com', // 21
+    'https://www.qwant.com/?q={query}',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Qwant-Icone-2022.svg/250px-Qwant-Icone-2022.svg.png'
+  ),
+  new UrlAction(
+    'Rumble',
+    'https://rumble.com', // 22
+    'https://rumble.com/search/all?q={query}',
+    'https://cdn.freelogovectors.net/wp-content/uploads/2023/05/rumble-logo-freelogovectors.net_.png'
+  ),
 ];
 
 /**

@@ -34,7 +34,7 @@ The `dist` folder contains the build output:
 
 ### Nginx Configuration
 
-For hosting with nginx with proper caching, use the following configuration. This ensures browsers cache the file locally but check for updates on each request (via ETag/304 responses).
+For hosting with nginx with proper caching, use the following configuration. This ensures browsers cache assets for 24 hours, then revalidate with the server using ETag (via 304 responses).
 
 ```nginx
 server {
@@ -46,8 +46,8 @@ server {
     location / {
         try_files $uri /index.html;
         
-        # Cache locally but always validate with server
-        add_header Cache-Control "no-cache, must-revalidate";
+        # Cache assets for 24h, then revalidate with ETag
+        add_header Cache-Control "max-age=86400, must-revalidate";
         
         # ETag is enabled by default in nginx
         etag on;

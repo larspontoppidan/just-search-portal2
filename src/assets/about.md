@@ -16,7 +16,9 @@ Pressing Enter from the search bar will use the default search engine, which is 
 
 Enable "NEW TAB" toggle to always open search engines and websites in new tabs. If disabled, middle-click will open in new tab and left-click will open in the same tab.
 
-"Open as URL" will not perform a search but open the query as an URL.
+The "Open as URL" search action will not perform a search but open the query as an URL.
+
+The "Icon URL or text" field supports URLs to image assets, which are cached locally. Inline images are supported, eg. `data:image/webp;base64,UklGRs...`. If up to three characters are provided, they will be shown as the icon. This may be used with graphical Unicode symbols. The "Auto" button will attempt to find an `apple-touch-icon.png` or a `favicon.ico` to use, from the provided "Search URL".
 
 # Installing as a New Tab page
 
@@ -44,11 +46,13 @@ Just Search Portal provides an [OpenSearch plugin](https://en.wikipedia.org/wiki
 
 # About
 
-The first version of Just Search Portal was written by Lars Ole Pontoppidan in 2018. It featured many of the same ideas as in the current version, but it didn't allow adding custom search engines, and it didn't have a links section. It was written in vanilla js with custom tooling and can be found on Github [here](https://github.com/larspontoppidan/just-search-portal).
+The first version of Just Search Portal was written by Lars Ole Pontoppidan in 2018. It featured many of the same ideas, but it didn't allow adding custom search engines, and it didn't have a links section. It was written in vanilla js with custom tooling and can be found on Github [here](https://github.com/larspontoppidan/just-search-portal).
 
 The current version, v2, is a complete rewrite using React and TypeScript built with Vite. See the source and documentation on [Github](https://github.com/larspontoppidan/just-search-portal2). LLMs were used to assist in the development of this version.
 
 The domain https://justsearchportal.com is managed by Lars Ole Pontoppidan and hosts stable builds of the v2 portal.
 
 Read more about Just Search Portal [here](https://larsee.com/blog/tag/just-search-portal.html).
+
+Contact: contact@justsearchportal.com
 
