@@ -320,6 +320,7 @@ function App() {
           onKeyDown={handleSearchKeyDown}
           placeholder="Enter your search query..."
           autoComplete="off"
+          autoFocus
         />
         <div className="button-container search-buttons">
           {urlActions.map((urlact, index) => {
